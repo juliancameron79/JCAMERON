@@ -18,7 +18,7 @@ body {
 /* Site Colours */
 
 .bg-skills {
-	background-color: #00008b05;
+	background-color: #8383e405;
 }
 
 .slink {
@@ -126,11 +126,6 @@ a.nav-link,
 	height: 100vh;
 }
 
-/* .site-blocks-cover.overlay {
-	position: relative;
-	background-blend-mode: lighten;
-} */
-
 .site-blocks-cover.overlay:before {
 	position: absolute;
 	content: "";
@@ -138,7 +133,8 @@ a.nav-link,
 	bottom: 0;
 	right: 0;
 	top: 0;
-	background: rgba(218, 70, 70, 0.1);
+	height: 100vh;
+	background: rgb(19 22 119 / 28%);
 }
 
 .section-heading {
