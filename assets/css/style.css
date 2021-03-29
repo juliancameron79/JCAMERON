@@ -158,15 +158,15 @@ a.nav-link,
 .about-title {
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
-  line-height: 36px;
+  font-size: 2rem;
+  line-height: 2.25rem;
 }
 
 .about-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
 
 /* Skills */
@@ -174,14 +174,13 @@ a.nav-link,
 .frontend-skillset {
   width: auto;
   height: 100%;
-
   background: #f8f9fa;
   border-radius: 35px 0px 0px 35px;
 }
+
 .backend-skillset {
   width: auto;
   height: 100%;
-
   background: #f8f9fa;
   border-radius: 0px;
 }
@@ -189,7 +188,6 @@ a.nav-link,
 .design-skillset {
   width: auto;
   height: 100%;
-
   background: #f8f9fa;
   border-radius: 0px 35px 35px 0px;
 }
@@ -197,18 +195,16 @@ a.nav-link,
 .skills-subtitle {
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 27px;
-  /* identical to box height, or 112% */
-
+  font-size: 1.5rem;
+  line-height: 1.6875rem;
   text-align: center;
 }
 
 .skills-color-subtitle {
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
-  line-height: 30px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
   text-align: center;
   color: #9b59b6;
 }
@@ -216,8 +212,8 @@ a.nav-link,
 .skills-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.0625rem;
+  line-height: 1.875rem;
   text-align: center;
   list-style-type: none;
 }
@@ -250,12 +246,19 @@ footer .social-icons {
   padding: 10.625rem 0;
   height: calc(100% - 100px);
 }
+
 @media (max-width: 576px) {
   .site-section {
     padding: 9.625rem 0;
   }
   .display-4 {
     font-size: 2rem;
+  }
+  .frontend-skillset {
+    border-radius: 35px 35px 0px 0px;
+  }
+  .design-skillset {
+    border-radius: 0px 0px 35px 35px;
   }
 }
 
