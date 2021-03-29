@@ -153,6 +153,22 @@ a.nav-link,
   border: 0;
 }
 
+/* About */
+
+.about-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.about-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 /* Portfolio */
 
 .card {
