@@ -224,6 +224,12 @@ a.nav-link,
   border: 0;
 }
 
+.card-title {
+  font-weight: 700;
+  line-height: 2.8125rem;
+  font-size: 1.75rem;
+}
+
 /* Footer */
 
 footer .social-icons li {
