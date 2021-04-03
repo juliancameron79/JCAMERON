@@ -263,12 +263,6 @@ footer .social-icons {
 }
 
 @media screen and (min-width: 768px) {
-  .frontend-skillset {
-    border-radius: 35px 35px 0px 0px;
-  }
-  .design-skillset {
-    border-radius: 0px 0px 35px 35px;
-  }
   footer .social-icons {
     text-align: right;
   }
