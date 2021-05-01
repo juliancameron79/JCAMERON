@@ -37,7 +37,7 @@ body {
   color: #e84610;
 }
 
-.portfolio-badge {
+.project-badge {
   color: #fff;
   background-color: #3498db;
 }
@@ -66,7 +66,7 @@ body {
   border-bottom: 3px solid #9b59b6 !important;
 }
 
-.border-bottom--portfolio {
+.border-bottom--project {
   width: 40px;
   border-bottom: 3px solid #3498db !important;
 }
@@ -76,7 +76,7 @@ body {
   border-bottom: 3px solid #e67e22 !important;
 }
 
-.portfolio-border-bottom {
+.project-border-bottom {
   border-bottom: 3px solid #3498db !important;
 }
 
@@ -116,6 +116,10 @@ a.nav-link,
   transition: top 0.3s;
 }
 
+.brand-logo {
+  font-weight: 300;
+}
+
 /* Landing section */
 
 .overlay {
@@ -151,6 +155,10 @@ a.nav-link,
   text-shadow: none;
   background-color: transparent;
   border: 0;
+}
+
+.career-title {
+  font-weight: 200;
 }
 
 /* About */
@@ -218,7 +226,7 @@ a.nav-link,
   list-style-type: none;
 }
 
-/* Portfolio */
+/* projects */
 
 .card {
   border: 0;
